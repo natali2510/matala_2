@@ -13,6 +13,3 @@ def countword():
         if word1[0]==revword(word1[i]):
            cnt = cnt + 1 
     return cnt
-
-
- countword()   
