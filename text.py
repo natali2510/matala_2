@@ -12,7 +12,7 @@ def countword():
     for i in range(1,len(word1)):
         if word1[0]==revword(word1[i]):
            cnt = cnt + 1 
-    print(cnt)
-countword()
+    return cnt
 
-    
+
+ countword()   
